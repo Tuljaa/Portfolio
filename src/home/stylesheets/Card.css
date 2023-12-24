@@ -1,0 +1,47 @@
+.card{
+    margin-top: 10%;
+    padding-left: 10%;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(44, 40, 40, 0.866);
+}
+.subLines{
+    margin: 0 0 0 30%;
+    width: 40%;
+    word-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-word;
+    word-break: keep-all;
+}
+
+.downloadBtn {
+  background-color: rgb(30, 192, 108);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #0c0c0b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 3% 5% 0 0%;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.downloadBtn:hover {
+    background-color: transparent;
+}

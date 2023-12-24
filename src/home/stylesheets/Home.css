@@ -1,0 +1,23 @@
+.home-parent {
+    display: flex;
+}
+.c1, .c2 {
+    height: 100vh;
+    width: 50%;
+    background-color: gray;
+}
+.c2 {
+    display: flex;
+    position:relative;
+    width: 100%;
+    background-color: pink;
+}
+img {
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    left:20%;
+}

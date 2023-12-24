@@ -1,0 +1,14 @@
+.aboutContainer{
+    display: flexbox;
+    height: 70vh;
+    width: 1000px;
+}
+.h3Page2{
+    margin-top: 10%;
+    word-spacing: 5px;
+}
+.extraStyle{
+    align-self:flex-start;
+    font-size: x-large;
+    font-weight:500;
+}

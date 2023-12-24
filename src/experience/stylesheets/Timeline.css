@@ -1,0 +1,42 @@
+.timeline{
+    display: flexbox;    
+    position:relative;
+} 
+.t-container{
+    display: flexbox;
+    position: relative;
+    float: left;
+    background-color: aqua;
+} 
+.t-content{
+    width: 30%;
+    height: 10%;
+    margin-left: 20%;
+    background-color: bisque;
+    padding: 3%;
+}
+.right{
+    margin-left: 60%;
+}
+.vertical-line{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 58%;
+    width: 6px;
+    align-self: center;
+    background-color: aliceblue;
+}
+.t-content::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 56%;
+    border: medium solid bisque;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent bisque;
+}
+
+
+
