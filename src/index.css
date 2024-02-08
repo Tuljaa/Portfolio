@@ -3,7 +3,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: pink;
+  background-color: rgb(223, 217, 217);
 }
 
 code {

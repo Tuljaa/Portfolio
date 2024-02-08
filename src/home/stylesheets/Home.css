@@ -1,16 +1,14 @@
 .home-parent {
-    display: flex;
+   display: flex;
+   height: 100%;
 }
-.c1, .c2 {
-    height: 100vh;
-    width: 50%;
-    background-color: gray;
+.c1 {
+    width: 35%;
+    background-color: rgb(0, 0, 0);
 }
 .c2 {
-    display: flex;
-    position:relative;
-    width: 100%;
-    background-color: pink;
+    width: 75%;
+    background-color: rgb(223, 217, 217);
 }
 img {
     position: absolute;
@@ -19,5 +17,6 @@ img {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    left:20%;
+    top: 30%;
+    left: 20%;
 }

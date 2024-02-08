@@ -1,10 +1,14 @@
 .aboutContainer{
     display: flexbox;
-    height: 70vh;
-    width: 1000px;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    left: 28%;
+
+    padding-top: 5%;
+    height: 50%;
 }
 .h3Page2{
-    margin-top: 10%;
     word-spacing: 5px;
 }
 .extraStyle{

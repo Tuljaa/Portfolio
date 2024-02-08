@@ -8,8 +8,8 @@ export default function Card() {
         <p className='subLines'>
         I'm a full-stack engineer who loves AI - I'm always trying to teach machines to think like humans, so I can finally take a break. When I'm not coding, you'll find me explaining to my friends why robots are going to take over the world (they're not convinced yet).
         </p>
-        <button className='downloadBtn'><b>Download CV</b></button>
-        <button className='downloadBtn'><b>Contact</b></button>
+        <button className='downloadBtn'>Download CV</button>
+        <button className='downloadBtn'>Contact</button>
     </div>
   )
 }

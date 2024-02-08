@@ -1,7 +1,7 @@
 import './stylesheets/About.css'
 import '../home/stylesheets/Card.css'
 
-export default function () {
+export default function About() {
   return (
     <div className='aboutContainer'>
         <h1 className='h3Page2'>Who Am I</h1>

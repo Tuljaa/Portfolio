@@ -1,41 +1,50 @@
-.timeline{
+.timeline-container{
     display: flexbox;    
-    position:relative;
-} 
-.t-container{
-    display: flexbox;
     position: relative;
-    float: left;
-    background-color: aqua;
+    align-self: center;
+    top: 70%;
+    height: 100%;
 } 
 .t-content{
+    position: relative;
+    top: 5%;
     width: 30%;
     height: 10%;
-    margin-left: 20%;
-    background-color: bisque;
+    margin-left: 12%;
+    background-color: black;
+    color:  rgb(223, 217, 217);
     padding: 3%;
 }
 .right{
-    margin-left: 60%;
+    margin-left: 52.3%;
 }
 .vertical-line{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 58%;
-    width: 6px;
-    align-self: center;
-    background-color: aliceblue;
+    top: 0%;
+    bottom: 5%;
+    left: 50%;
+    width: 7px;
+    background-color: black;
 }
-.t-content::before{
-    content: '';
+.t-content::after {
     position: absolute;
     z-index: 1;
-    top: 50px;
-    left: 56%;
-    border: medium solid bisque;
-    border-width: 15px 0 15px 15px;
-    border-color: transparent transparent transparent bisque;
+    top: 0px;
+    left: 100%;
+    content: '';
+    border: medium solid;
+    border-width: 28px 0 28px 28px;
+    border-color: transparent transparent transparent  black;
+}
+.right::after {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: -5%;
+    content: '';
+    border: medium solid;
+    border-width: 28px 28px 28px 0px;
+    border-color: transparent black transparent  transparent;
 }
 
 

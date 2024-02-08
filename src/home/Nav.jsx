@@ -1,6 +1,6 @@
 import './stylesheets/Nav.css';
 
-export default function () {
+export default function Logo() {
   return (
     <div className='container'>
         <h3 className='brand'> My Brand Name </h3>
